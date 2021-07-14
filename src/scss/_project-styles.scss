@@ -60,20 +60,41 @@
 
 			> svg {
 				width: 166px;
-				height: 49px;
+				height: auto;
 
 				@media screen and (max-width: 768px) {
 					width: 115px;
-					height: 35px;
+					height: auto;
+				}
+
+				@media screen and (max-width: 480px) {
+					width: 82px;
+					height: auto;
 				}
 			}
 		}
 
 		&:not(.nav__item--logo) {
-			padding-left: 56px;
+			transition: opacity 0.2s ease;
 
-			@media screen and (max-width: 768px) {
-				padding-left: 32px;
+			+ .nav__item {
+				padding-left: 56px;
+
+				@media screen and (max-width: 768px) {
+					padding-left: 32px;
+				}
+
+				@media screen and (max-width: 480px) {
+					padding-left: 16px;
+				}
+			}
+
+			@media screen and (max-width: 480px) {
+				font-size: 0.9rem;
+			}
+
+			&:hover {
+				opacity: 0.7;
 			}
 		}
 	}
