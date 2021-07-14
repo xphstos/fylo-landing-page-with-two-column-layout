@@ -6,4 +6,4 @@ This is a solution to the [Fylo landing page with two column layout challenge on
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [brawny-jewel.surge.sh](brawny-jewel.surge.sh)
